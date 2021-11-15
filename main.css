@@ -44,11 +44,7 @@ h2{
 span{
     display: block;
 }
-<<<<<<< HEAD
 input, button, label,a{
-=======
-input,button, label{
->>>>>>> 5c541d9d20f7e87d2d04f16ec276a27cda72d537
     width: 50%;
     display: block;
 
@@ -58,7 +54,6 @@ input,button, label{
     box-sizing: border-box;
 	border-color: #D9EDF7;
 	border-radius: 4px;
-<<<<<<< HEAD
 
     margin-top: 10px;
 }
@@ -67,8 +62,6 @@ div.g-recaptcha{
     margin: auto;
 
     margin-top: 10px;
-=======
->>>>>>> 5c541d9d20f7e87d2d04f16ec276a27cda72d537
 }
 .botao{
 	background-color: var(--cor1);
@@ -79,11 +72,8 @@ div.g-recaptcha{
     width: 20%;
     margin-top: 5px;
     padding: 8px 15px;
-<<<<<<< HEAD
 
     text-align: center;
-=======
->>>>>>> 5c541d9d20f7e87d2d04f16ec276a27cda72d537
 }
 ul li{
     color: var(--cor1);
