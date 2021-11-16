@@ -16,8 +16,8 @@ if (!$captcha_data) {
     $msg = "Por favor, confirme o captcha.";
     exit($msg);
 }
-
-$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6LfVDzUdAAAAAPx1qtdhAVCv2apvBh5xuFFwRfU_&response=".$captcha_data."&remoteip=".$_SERVER['REMOTE_ADDR']);
+$chaveSecreta = '';
+$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$chaveSecreta&response=".$captcha_data."&remoteip=".$_SERVER['REMOTE_ADDR']);
 $responseData = json_decode($response, true);
 
 if ($responseData["success"] == true) {
